@@ -1,4 +1,3 @@
-```markdown
 # Installation – Ubuntu Server 22.04 LTS
 
 Ce document détaille les étapes pour reproduire l'environnement du projet.
@@ -122,4 +121,3 @@ sudo apt update && sudo apt upgrade -y
 | Connexion distante | `ssh user@192.168.30.138` | Connexion établie |
 | Utilisateur sudo | `groups admin1` | `sudo` présent |
 | Système à jour | `apt list --upgradable` | Liste vide |
-```
