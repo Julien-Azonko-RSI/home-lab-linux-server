@@ -128,4 +128,4 @@ Licence Réseaux et Systèmes d'Information
 
 ---
 
-> 🏷️ *Tags : Linux · Ubuntu · SSH · Netplan · Sysadmin · Homelab · CLI*
+
