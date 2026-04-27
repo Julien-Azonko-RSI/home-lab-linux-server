@@ -72,6 +72,9 @@ ip a
 
 ## 4. Configuration SSH
 
+SSH a été installé directement pendant l'installation du système en cochant
+**Install OpenSSH server** dans l'assistant d'installation.
+
 Vérifier que SSH est actif :
 
 ```bash
