@@ -1,4 +1,4 @@
-# 🖥️ Home Lab – Serveur Linux Ubuntu Server
+#  Home Lab – Serveur Linux Ubuntu Server
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04_LTS-E95420?style=flat&logo=ubuntu&logoColor=white)
 ![SSH](https://img.shields.io/badge/SSH-Enabled-238636?style=flat&logo=gnubash&logoColor=white)
@@ -6,13 +6,13 @@
 
 ---
 
-## 🎯 Objectif
+##  Objectif
 
 Mise en place d'un serveur Linux sans interface graphique pour pratiquer l'administration système et réseau en conditions réelles : installation, configuration, accès distant et gestion des utilisateurs.
 
 ---
 
-## 🧰 Environnement
+##  Environnement
 
 | Élément | Détail |
 |---|---|
@@ -22,7 +22,7 @@ Mise en place d'un serveur Linux sans interface graphique pour pratiquer l'admin
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 Étapes réalisées après l'installation initiale du système :
 
@@ -32,11 +32,11 @@ Mise en place d'un serveur Linux sans interface graphique pour pratiquer l'admin
 
 ---
 
-## 🌐 Configuration réseau (Netplan)
+##  Configuration réseau (Netplan)
 
 Configuration d'une adresse IP statique via `/etc/netplan/*.yaml`.
 
-> ⚠️ **Note** : `gateway4` est déprécié sur les versions récentes de Netplan.  
+>  **Note** : `gateway4` est déprécié sur les versions récentes de Netplan.  
 > J'ai utilisé la syntaxe `routes:` à la place, ce qui a nécessité quelques recherches avant de trouver la bonne approche.
 
 ```yaml
@@ -64,7 +64,7 @@ sudo netplan apply
 
 ---
 
-## 🔐 Accès SSH
+##  Accès SSH
 
 Activation et vérification du service SSH :
 
@@ -78,7 +78,7 @@ ssh user@192.168.30.138
 
 ---
 
-## 👥 Gestion des utilisateurs
+##  Gestion des utilisateurs
 
 Création d'un utilisateur secondaire avec droits sudo :
 
@@ -95,7 +95,7 @@ groups admin1
 
 ---
 
-## 🔄 Mise à jour du système
+##  Mise à jour du système
 
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -103,16 +103,16 @@ sudo apt update && sudo apt upgrade -y
 
 ---
 
-## 📚 Compétences développées
+##  Compétences développées
 
-- 🖥️ **Installation d'un serveur Linux** en environnement CLI
-- 🌐 **Configuration réseau** : IP statique, passerelle, DNS avec Netplan
-- 🔐 **Accès SSH** : configuration, vérification et connexion distante
-- 👤 **Gestion des utilisateurs** : création de comptes et droits sudo
+-  **Installation d'un serveur Linux** en environnement CLI
+-  **Configuration réseau** : IP statique, passerelle, DNS avec Netplan
+-  **Accès SSH** : configuration, vérification et connexion distante
+-  **Gestion des utilisateurs** : création de comptes et droits sudo
 
 ---
 
-## ⚠️ Difficultés rencontrées
+##  Difficultés rencontrées
 
 | Problème | Solution |
 |---|---|
@@ -122,7 +122,7 @@ sudo apt update && sudo apt upgrade -y
 
 ---
 
-## 👤 Auteur
+##  Auteur
 
 **Julien Azonko**  
 Licence Réseaux et Systèmes d'Information
