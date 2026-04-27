@@ -117,7 +117,6 @@ sudo apt update && sudo apt upgrade -y
 | Problème | Solution |
 |---|---|
 | `gateway4` déprécié dans Netplan | Remplacé par `routes: - to: default / via: 192.168.30.2` |
-| Mauvaise interface réseau (`enp0s3`) | Corrigée en `ens33` après vérification avec `ip link show` |
 | Erreurs d'adressage IP | Diagnostiquées avec `ip a` après chaque `netplan apply` |
 
 ---
